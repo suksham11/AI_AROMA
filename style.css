@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding : 0;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+}
+.logo img{
+    width: 80%;
+  
+    border: 3px solid  white;
+   
+    border-radius: 50px;
+    
+
+}
+.navbar{
+    display: flex;
+    align-items:center;
+    justify-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.nav-list{
+   width: 50%;
+ 
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-list li{
+    list-style: none;
+    padding: 20px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+
+.rightNav{
+    
+    width: 50%;
+    text-align: right;
+}
+
+#search{
+    padding : 5px;
+    font-size : 17px;
+    border :  2px solid grey;
+    border-radius : 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.019) url('pt2.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height:  100vh;
+}
+
+.box-main{
+    height : 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'segoe UI' , Tahoma, Geneva , verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.secondHalf{
+    width:80%;
+}
+
+.text-big{
+    font-size : 21px;
+}
+.btn{
+    padding : 8px 20px;
+    margin : 7px 3px;
+    border : 2px solid white;
+    border-radius : 8px;
+    background : none;
+    color : white;
+    cursor : pointer
+
+}
+
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align : middle;
+}
+
+
+.secRight{
+
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin:auto;
+}
+.section{
+
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin:auto;
+    flex-direction: row-reverse;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0 65px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact{
+    background-color: rgb(237, 232, 232)
+
+}
+
+.text-center{
+    text-align: center;
+}
+.form{
+    max-width: 344px;
+    text-align: center;
+}
+.form{
+  
+    padding: 5px;
+    font-size: 19px;
+  
+}
